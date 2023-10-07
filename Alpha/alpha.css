@@ -1,0 +1,351 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./Images/banner\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color:#f5f5f5 whitesmokehsl(0,0%,96%)#fcfcfc;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+}
+
+header #left h1{
+    font-size: 1.2rem;
+    color: white;
+}
+
+header #right #hm{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+header #right ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+header #right ul li a button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.74);
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+}
+#drop{
+    position: relative;
+}
+
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    background-color: white;
+    width: 170%;
+    top: 100%;
+    left: -79%;
+    display: none;
+}
+
+header #right #hm #drop #menu li a{
+    color: black;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.664);
+}
+#drop:hover #menu{
+    display: block;
+}
+
+header #left h1 span{
+    font-weight: 100;
+}
+
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top: 10rem;
+}
+#alpha h1{
+    font-size: 4rem;
+    margin-bottom: 0rem;
+}
+#alpha p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#alpha button{
+    background-color: white;
+    color: black;
+    width: 13%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: grey;
+}
+
+#alpha #learn{
+    background-color: transparent;
+    border: 2px solid rgba(230, 219, 219, 0.459);
+    color: white;
+
+}
+
+#intro{
+    background-color: white;
+    width: 70%;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+    padding-top: 2rem;
+    color: rgb(59, 58, 58);
+}
+
+#intro h1{
+    font-size: 2.5rem;
+}
+
+#intro p{
+    font-size: 1.2rem;
+    border-top: 2px solid rgb(158, 145, 145);
+    width: 70%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+#intro img{
+    width: 100%;
+}
+
+
+#signup{
+    text-align: center;
+    /* border-radius: 5px; */
+    color: white;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 0 0 20rem 0;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+    background-color: rgb(232,153,128);
+}
+#signup h1{
+    font-size: 3rem;
+}
+#email{
+    width: 20%;
+    height: 3rem;
+    padding-left: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.623);
+    outline: none;
+}
+#email::placeholder{
+    color: grey;
+}
+#email:hover{
+    outline:2px solid white ;
+}
+#signup p{
+    margin: 0 0 2rem 0;
+}
+button{
+    height: 3rem;
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+    color: rgb(232,153,128) ;
+}
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+    
+}
+#icon div {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.fa-solid.fa-bolt-lightning{
+    font-size: 1.5rem;
+    background-color: #e89980;
+    border-radius: 100%;
+    padding: 1.5rem;
+    color: white;
+}
+.fa-solid.fa-chart-area{
+      font-size: 1.5rem;
+    background-color: #7fcdb8;
+    border-radius: 100%;
+    padding: 1.5rem;
+    color: white;
+}
+
+.fa-solid.fa-cloud{
+    font-size: 1.5rem;
+    background-color:#90b0ba;
+    border-radius: 100%;
+    padding: 1.5rem;
+    color: white;
+}
+.fa-solid.fa-lock{
+    font-size: 1.5rem;
+    background-color: #e5cb95;
+    border-radius: 100%;
+    padding: 1.5rem;
+    color: white;
+}
+#div1{
+    border-right:2px solid #e5e5e5;
+    border-bottom:2px solid #e5e5e5 ;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#div4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+#icon section{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#cards{
+    /* background-color: white; */
+    width: 70%;
+    margin: auto;
+    margin-top: 2.5rem;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards div{
+    background-color: white;
+    width: 48%;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+#cards div img{
+    width: 100%;
+    /* border-radius: 5px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#cards div button{
+    border-radius: 5px;
+    width: 25%;
+    height: 3rem;
+    background-color: white;
+    border: 2px solid #77777769;
+    color: black;
+}
+#tag{
+    background-color: #f5f5f5;
+    padding: 3rem;
+}
+#tag #sm{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+#tag #sm li a{
+    color: #b9b5b3;
+}
+
+#tag #rights{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#tag #rights li{
+    color: #b9b5b3;
+}
+
+#tag #rights li a{
+    color: #b9b5b3;
+}
+#tag #rightsbli:hover{
+    text-decoration: dotted;
+}
+/*------------mobile--------------*/
+
+@media(max-width:600px){
+    body{
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #logo{
+        display: inline-block;
+        background-color: ;
+        color: white;
+        border-radius: 5px;
+        padding: 5px 15px;
+        margin-top: 10px;
+        margin-left: 1rem;
+    }
+    header{
+        display: none;
+    }
+    #alpha{
+        width: 90%;
+        margin: auto;
+        margin-top: 0rem
+    }
+    #alpha h1{
+        font-size: 2rem;
+    }
+    #alpha p{
+        font-weight: 600;
+    }
+    #alpha button{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        width: 100%;
+        margin-top: 2rem;
+        padding-top: 2rem;
+    }
+    #intro h1{
+        font-size: 1.5rem;
+    }
+    #intro p{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+
+
